@@ -6,7 +6,7 @@ B <- matrix(1:1000, nrow=10)
 det_A <- det(A)
 det_A
 
-dim_A <- dim(A) ##the matrix A are equal, so Determinant can be calculated.
+dim_A <- dim(A) ##the matrix A is squared, so Determinant can be calculated.
 dim_A
 # Print the results
 cat("Determinant of A:", det_A, "\n")
