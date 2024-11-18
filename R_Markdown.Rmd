@@ -1,0 +1,29 @@
+---
+title: "R_Mrakdown"
+Name: Ugent Dailey
+output: html_document
+date: "2024-11-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+R Markdown is a powerful tool for creating reproducible data analysis reports. For instance, using the built-in cars dataset in R, you can create an R Markdown document to explore the relationship between speed and stopping distance. By incorporating code chunks, you can visualize the data using scatter plots and calculate summary statistics. The document can also include text to explain the analysis, interpret the results, and draw conclusions. This approach ensures that your analysis is transparent, verifiable, and easily shared with others.
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots directly into your R Markdown document to visualize data effectively. By using R's powerful plotting libraries like ggplot2, you can create customized and informative visualizations. For example, you can generate a scatter plot of the cars dataset to explore the relationship between speed and stopping distance. This plot can be seamlessly integrated into your document, making it easier to understand and interpret the results of your analysis.
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
